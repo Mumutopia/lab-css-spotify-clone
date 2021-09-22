@@ -1,8 +1,170 @@
-/*
-Colors:
+/*Header */
+@font-face {
+    font-family: "Gotham";
+    src: url(/font/Gotham/Gotham.otf);
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+    /*couldn't import the font :'( */
+}
 
-*/
+* {
+    box-sizing: border-box;
+    font-family: "Gotham";
+}
+
+.spotify-logo {
+    width: 14%;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar{
+    width: 42%;
+}
+
+.nav-bar ul {
+    /*position: fixed;
+    top: 0;
+    right: 0; */
+    display: flex;
+    justify-content:space-around;
+}
+
+.nav-bar a {
+    text-decoration: none; 
+    color: black; 
+    font-size: 1.4rem;  
+    
+}
+
+.header-class {
+    margin: 1% 2%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+/* /Header */
+
+/* Section1 */
+
+.section1 {
+    background-image: url(/images/landing.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding:  50px;
+    position: relative;
+}
+
+.section1 h1 {
+    color: white;
+    font-size: 4.5em;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.section1 p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    width: 60%;
+}
+
+.section1 article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* /Section1 */
+
+/* Section2 */
+
+
+.section2 h2 {
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: underline #00B172;
+    text-underline-position: under;
+}
+
+.section2 img {
+    width: 10em;
+}
+
+.section2 h3 {
+    color:#00B172 ;
+}
+
+.section2 article {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 6px 3px 0px;
+}
+
+.section2 div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.section2 p {
+    text-align: center;
+    width: 55%;
+}
+/* /Section2 */
+
+/* Footer */
+footer {
+    position: relative;
+    background-image: url(/images/spotify-icon-white.png);
+    background-color:#00B172;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 4% 6%;
+}
+
+footer h2 {
+    text-decoration: underline white;
+    text-underline-offset: 8px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 34%;
+}
+
+footer p {
+    text-align: left;
+}
+
+.kanye {
+    width: 300px;
+}
+
+footer section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-kanye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* /Footer */
